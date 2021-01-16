@@ -62,7 +62,7 @@ namespace UnitTestProject3
             by = By.XPath("//*[@id='BanneContentSlider']");
             Assert.AreEqual(true, IsElementPresent(by));
 
-
+            
 
             //退出登录
             //鼠标悬停,只有第一次成功
